@@ -1,0 +1,175 @@
+/*******************************
+General
+***********************/
+body{
+	background-color: #ecbe6a;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+}
+a{
+	display: inline;
+	text-decoration: none;
+	color: #fff;
+}
+
+/***************************
+			Header
+*******************************/			
+header{
+	font-family: 'Permanent Marker', cursive; /*adds fonts as a css*/
+	width: 100%;
+	background-color: #ece29b;
+	margin: 0;
+	display: inline-block;
+}
+
+.problem{
+	height: 100px;
+	width: 100%;
+}
+
+#logo{
+	display: block;
+	background-color: lightyellow;
+	text-align: center;
+	margin: 0;
+	font-family: Permanent Marker;
+	font-size: .75em; /*giving the font and adjusting size */
+}
+
+h1,h2{
+	color: maroon;
+	margin:0;
+	font-size: 2rem;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 3px;
+	list-style: none;
+	text-align: center;
+}
+nav li{
+	padding: 10 4 0 0;
+	text-align: center;
+	display: inline-block;  /*inline block makes text inline but also hacve block properties like height width*/
+}
+
+.selected{
+	color: red;
+}
+nav a{
+	padding: 10px 15px;
+}
+
+nav a:hover{ 
+	color:red;
+}
+/***************************
+         	index.html
+******************************/
+#wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/***********************************
+				contact.html
+***********************************/
+
+#DP{
+	display: block;
+	max-width: 500px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+	border-style: dotted;
+
+}
+
+/*******************************
+			about.html
+*********************************/
+
+.info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.info a {
+	
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 0 10px;
+}
+.info li.phone{
+	background-image: url('img/phone.png'); 
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+.info li.mail{
+	background-image: url('img/mail.png'); 
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+
+}
+.info li.facebook{
+	background-image: url('img/facebook.png'); 
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+
+}
+.info li.twitter{
+	background-image: url('img/twitter.png'); 
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+
+}
+/**********************************
+							footer
+********************************/									
+footer{
+
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color:#99eeff;
+}
+
+.social{
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+/******************************
+				portfolio
+********************************/
+#gallery{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}				
+
+#gallery li{
+	max-width: 45%;  /*45% of parent ul which has 100% of gallery*/ 
+	margin: 2.5%;  /*2.5% on all sides betwen li not image*/
+	float: left;
+	background-color: lightyellow;
+	color: red;
+
+}
+#gallery li a p{
+	font-size: 0.75em;
+	color: red;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+}
